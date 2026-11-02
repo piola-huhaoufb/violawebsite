@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(122, 183, 233);
+    font-family: Georgia;
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.buah {
+    background-color: rgb(197, 231, 255);
+    padding: 10px;
+    list-style-type: upper-roman;
+}
+
+.buah li {
+    background-color: rgb(255, 202, 216);
+    border: 2px solid rgb(221, 186, 255);
+    padding: 3px;
+}
+
+.buah li:nth-child(5) {
+    background-color: rgb(162, 191, 255);
+}
+
+.lorem {
+    background-color: rgb(184, 212, 255);
+    padding: 10px 10px 10px 30px;
+    list-style-type: square;
+}
+
+.lorem li {
+    background-color: pink;
+    border: 2px solid rgb(255, 175, 243);
+    padding: 3px;
+}
+
+.icon {
+    background-color: rgb(165, 219, 255);
+    padding: 10px 10px 10px 30px;
+    list-style-type: square;
+}
+
+.icon li {
+    background-color: rgb(255, 205, 250);
+    border: 2px solid rgb(255, 187, 240);
+    padding: 3px;
+}
+
+.icon i {
+    color: black;
+    font-size: 16px;
+    margin-right: 5px;
+}

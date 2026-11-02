@@ -1,0 +1,183 @@
+
+body {
+    background-image: url("Backgrounfstrips.jpg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid rgb(215, 138, 215);
+}
+
+
+.header {
+    background-color: #f97cef;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e592f0;
+    margin-bottom: 20px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #d72fc9;
+}
+
+
+h1 { color: rgb(224, 241, 187); }
+h2 { color: #56a5d6; }
+
+.card {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #b99bd4;
+    background-color: #f7f0fc;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid rgb(185, 255, 198);
+}
+
+.gallery img:hover { transform: scale(1.05); }
+.gallery p { font-weight: bold; }
+
+.foto {
+    position: relative;
+    width: 180px;
+    height: 220px;
+    margin: auto;
+}
+
+.foto img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border: 2px solid rgb(239, 163, 216);
+}
+
+.foto-kecil {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.foto:hover .foto-kecil { opacity: 1; }
+.foto:hover .foto-besar { opacity: 0; }
+
+
+table {
+    width: 650px;
+    height: 330px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 4px solid rgb(255, 0, 217);
+    background-color: rgb(198, 217, 255);
+    margin: 20px auto;
+}
+
+td {
+    height: 65px;
+    border: 4px solid rgb(255, 227, 240);
+    background-color: rgb(201, 201, 255);
+    color: rgb(255, 255, 199);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 34px;
+    font-weight: normal;
+    padding: 0;
+}
+
+td:hover { background-color: #eeffcc; }
+
+
+.buah {
+    background-color: rgb(197, 231, 255);
+    padding: 10px;
+    list-style-type: upper-roman;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.buah li {
+    background-color: rgb(255, 202, 216);
+    border: 2px solid rgb(221, 186, 255);
+    padding: 3px;
+}
+
+.buah li:nth-child(5) { background-color: rgb(162, 191, 255); }
+
+.lorem {
+    background-color: rgb(184, 212, 255);
+    padding: 10px 10px 10px 30px;
+    list-style-type: square;
+    text-align: left;
+}
+
+.lorem li {
+    background-color: pink;
+    border: 2px solid rgb(255, 175, 243);
+    padding: 3px;
+}
+
+.icon {
+    background-color: rgb(165, 219, 255);
+    padding: 10px 10px 10px 30px;
+    list-style-type: square;
+    text-align: left;
+}
+
+.icon li {
+    background-color: rgb(255, 205, 250);
+    border: 2px solid rgb(255, 187, 240);
+    padding: 3px;
+}
+
+.icon i {
+    color: black;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
